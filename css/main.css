@@ -1,0 +1,150 @@
+
+		
+/* #container { display:block; width: 1200px; margin: 4em auto;  }	*/
+
+#container {
+	margin: auto;
+    padding: 1.1em 1.2em 1.1em 1.2em;
+}
+
+html {
+}
+
+body {
+font-size: 1em;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+text-align: left;
+color: black;
+margin:0;
+margin-left: 1em;
+margin-left: 1vw;
+padding:0;
+background-color: #FFF;		
+}
+
+h1 {
+font-family: 'Roboto Condensed', sans-serif;	
+font-size: 1.4em;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+line-height: 26.4px;
+line-height: 2vw;	
+}
+
+h2 {
+font-family: 'Open Sans', sans-serif;
+font-size: 1em;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+line-height: 1em;
+line-height: 1vw;
+margin-left: 0.7em;
+margin-left: 0.7vw;
+}
+
+p {
+font-family: 'Open Sans', sans-serif;
+font-size: 1em;
+}
+
+
+
+/* Trick for fine-tuning link underlines with large fonts by Craig Spaeth http://artsy.github.io/blog/2012/04/10/css-trick-adjusting-text-underlines/ */
+a {
+  display: inline-block;
+  position: relative;
+}
+a:hover:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 2px;
+}
+
+
+
+
+a { text-decoration: none;
+	color: #000;
+}
+a:hover{text-decoration: none;
+	color: #000;}
+
+a.visible { color: #0577C2; }
+
+.wrapper { width: 1200px; margin: 4em auto; }
+
+
+
+
+
+@media screen and (max-width: 78em) {
+	.companion_image {
+		width: 2.5em;
+	}
+	
+	#container {
+	margin: auto;
+    padding: 0 1.5em 0 1.5em;
+	min-width: 0;
+
+	}
+	
+}
+
+
+@media screen and (max-width: 47em) {
+	
+}
+
+
+
+@media screen and (max-width: 32em) {
+  
+	  #container {
+		margin: auto;
+	    padding: 0 1em 0 1em;
+		min-width: 0;
+
+	}
+	  
+	#box {
+		margin-top: 1em;
+		margin-left: 1em;
+		width: 100%;
+	}
+
+	h1 {
+
+	font-size: 1.1em;
+	line-height: 2em;	
+	}
+
+	h2 {
+
+	font-size: 0.9em;
+	line-height: 1em;
+	}
+
+	p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	}
+
+	/* Grid Gallery one column only on small screens */
+	.grid li { width: 100%; } 
+	  
+} /* End media queries */
+
+
+
+		
+

@@ -1,0 +1,280 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"last_filter": "markm",
+		"selected_items":
+		[
+			[
+				"markm",
+				"Markmon launch"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tom/Sites/tomleimkuhler/index.html",
+		"/Users/tom/Scales.txt",
+		"/Users/tom/.task/task.1326.10.task",
+		"/Users/tom/.task/task.8525.32.task",
+		"/Users/tom/.task/task.8516.32.task",
+		"/Users/tom/.task/task.6444.47.task",
+		"/Users/tom/.task/task.6244.10.task",
+		"/Users/tom/.task/task.6236.10.task",
+		"/Users/tom/.task/task.6222.10.task",
+		"/Users/tom/.vimrc",
+		"/Users/tom/.jrnl_config",
+		"/Users/tom/.taskrc",
+		"/Users/tom/.task/task.1756.48.task",
+		"/Users/tom/.task/task.1704.50.task",
+		"/Users/tom/code/.taskrc",
+		"/Users/tom/.bash_profile",
+		"/var/folders/l5/p0j7zjzc8xj68d0059_xynsh0000gp/T/jrnllTs1aE.txt",
+		"/var/folders/l5/p0j7zjzc8xj68d0059_xynsh0000gp/T/jrnlLDfKBQ.txt",
+		"/Users/tom/code/task-notifications-master/task-ansi2email.sh",
+		"/var/folders/l5/p0j7zjzc8xj68d0059_xynsh0000gp/T/jrnlMHIRS7.txt",
+		"/Users/tom/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/var/folders/l5/p0j7zjzc8xj68d0059_xynsh0000gp/T/jrnl4A3pyn.txt",
+		"/Users/tom/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/tom/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/tom/.task/task.2551.33.task",
+		"/Users/tom/.task/task.2543.53.task",
+		"/Users/tom/.task/task.2535.40.task",
+		"/Users/tom/.task/task.2527.8.task",
+		"/Users/tom/.task/task.2519.9.task",
+		"/Users/tom/.task/task.2511.18.task",
+		"/Users/tom/.task/task.2503.1.task",
+		"/Users/tom/.task/task.2495.3.task",
+		"/Users/tom/.task/task.2487.38.task",
+		"/Users/tom/.task/task.2479.16.task",
+		"/Users/tom/.task/task.2471.34.task",
+		"/Users/tom/.task/task.2463.41.task",
+		"/Users/tom/.task/task.2455.17.task",
+		"/Users/tom/.task/task.2447.6.task",
+		"/Users/tom/.task/task.2439.14.task",
+		"/Users/tom/.task/task.2431.7.task",
+		"/Users/tom/.task/task.2423.4.task",
+		"/Users/tom/.task/task.2415.19.task",
+		"/Users/tom/.task/task.2407.15.task",
+		"/Users/tom/.task/task.2399.22.task",
+		"/Users/tom/.task/task.2381.53.task",
+		"/Users/tom/.task/task.2338.51.task",
+		"/Users/tom/.task/task.2328.13.task",
+		"/Users/tom/.task/task.2320.11.task",
+		"/Users/tom/.task/task.2312.11.task",
+		"/Users/tom/.task/task.2301.20.task",
+		"/Users/tom/.task/task.2293.11.task",
+		"/Users/tom/.task/task.2285.11.task",
+		"/Users/tom/.task/task.2277.12.task",
+		"/Users/tom/.task/task.2267.2.task",
+		"/Users/tom/.task/task.2259.2.task",
+		"/Users/tom/.task/task.2080.52.task",
+		"/Users/tom/.task/task.2036.13.task",
+		"/Users/tom/.task/task.2028.49.task",
+		"/Users/tom/.task/task.1976.30.task",
+		"/Users/tom/.task/task.1961.30.task",
+		"/Users/tom/.task/task.1721.38.task",
+		"/Users/tom/.task/task.1698.5.task",
+		"/Users/tom/.task/task.1546.3.task",
+		"/Users/tom/.task/task.1538.6.task",
+		"/Users/tom/.task/task.1530.6.task",
+		"/Users/tom/.task/task.1503.8.task",
+		"/Users/tom/.task/task.1495.8.task",
+		"/Users/tom/.task/task.1444.11.task",
+		"/Users/tom/.task/task.1436.11.task",
+		"/Users/tom/.task/task.1428.4.task",
+		"/Users/tom/.task/task.1420.7.task",
+		"/Users/tom/.task/task.1412.6.task",
+		"/Users/tom/.task/task.1244.39.task",
+		"/Users/tom/.task/task.1169.22.task",
+		"/Users/tom/.task/task.1157.22.task",
+		"/Users/tom/.task/task.1114.26.task",
+		"/Users/tom/.task/task.976.22.task",
+		"/Users/tom/.task/task.914.21.task",
+		"/Users/tom/.task/task.894.17.task",
+		"/Users/tom/.task/task.886.20.task",
+		"/Users/tom/.task/task.878.20.task",
+		"/Users/tom/.task/task.870.21.task",
+		"/Users/tom/.task/task.859.1.task",
+		"/Users/tom/.task/task.851.4.task",
+		"/Users/tom/.task/task.843.2.task",
+		"/Users/tom/.task/task.835.5.task",
+		"/Users/tom/.task/task.827.8.task",
+		"/Users/tom/.task/task.819.6.task",
+		"/Users/tom/.task/task.811.7.task",
+		"/Users/tom/.task/task.801.10.task",
+		"/Users/tom/.task/task.793.11.task",
+		"/Users/tom/.task/task.785.12.task",
+		"/Users/tom/.task/task.777.13.task",
+		"/Users/tom/.task/task.769.14.task",
+		"/Users/tom/.task/task.761.15.task",
+		"/Users/tom/.task/task.753.16.task",
+		"/Users/tom/.task/task.745.8.task",
+		"/Users/tom/.task/task.737.8.task",
+		"/Users/tom/.task/task.719.8.task",
+		"/Users/tom/Documents/lksdf"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
