@@ -23,7 +23,7 @@
 		<p>A podcast featuring interviews with mostly female comedians. Listen using <a class="visible" target=_new href="https://itunes.apple.com/us/podcast/beas-big-laughs/id1329611273">iTunes</a> or <a class="visible" target=_new href="https://www.spreaker.com/show/beas-big-laughs">Spreaker</a>. </p>
 
 
-		<div id="grid-gallery" class="grid-gallery">
+		<div id="grid-gallery">
 			<section class="grid-wrap">
 				<ul class="grid">
 					<li class="grid-sizer"></li><!-- for Masonry column width -->
@@ -68,10 +68,10 @@
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script>
 $(document).ready(function() {
-$(".grid-gallery").swiperight(function() {
+$("#grid-gallery").swiperight(function() {
 $( ".nav-prev" ).click();
 });
-$(".grid-gallery").swipeleft(function() {
+$("#grid-gallery").swipeleft(function() {
 $( ".nav-next" ).click(); 
 });
 });
