@@ -10,6 +10,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Roboto|Roboto+Condensed" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen" />
 		<link href="../includes/grid-gallery-setup.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+
 </head>
 
 <body> 
@@ -61,6 +63,19 @@
 
 	</div><!-- #container -->
 
+<!-- <script src="js/jquery.mobile-1.4.2.min.js"></script> -->
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script>
+$(document).ready(function() {
+$("#grid-gallery").swiperight(function() {
+$( ".nav-prev" ).click();
+});
+$("#grid-gallery").swipeleft(function() {
+$( ".nav-next" ).click();
+});
+});
+</script>
 
 <script src="../includes/GridGallery/js/modernizr.custom.js"></script>
 <script src="../includes/GridGallery/js/imagesloaded.pkgd.min.js"></script>
