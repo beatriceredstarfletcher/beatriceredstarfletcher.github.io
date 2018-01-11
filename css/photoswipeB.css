@@ -297,7 +297,7 @@ a.demo-gallery__img--main {
     line-height: 1.1; 
   }
     .thumbnail {
-    height:20vw;
+    height:30vw;
   }
 
 }
@@ -316,7 +316,7 @@ a.demo-gallery__img--main {
     float: left;
   }
     .thumbnail {
-    height:20vw;
+    height:30vw;
   }
 }
 
@@ -357,7 +357,7 @@ a.demo-gallery__img--main {
     line-height: 26px; 
   }
     .thumbnail {
-    height:20vw;
+    height:30vw;
   }
 
 }
@@ -384,7 +384,7 @@ a.demo-gallery__img--main {
     line-height: 24px;
   }
       .thumbnail {
-    height:20vw;
+    height:30vw;
   }
 }
 
@@ -409,7 +409,7 @@ a.demo-gallery__img--main {
     width: 127px;
   }
       .thumbnail {
-    height:20vw;
+    height:30vw;
   }
 }
 
@@ -423,7 +423,7 @@ margin: 0 1px 1px 0;
     width: 109px;
   }
       .thumbnail {
-    height:20vw;
+    height:30vw;
   }
 }
 

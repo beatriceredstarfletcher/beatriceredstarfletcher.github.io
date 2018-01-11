@@ -32,7 +32,7 @@
 		
 		<h1><a href="../index.html">Beatrice Red Star Fletcher</a> &gt; Bea's Big Laughs</h1>
 
-		<p>AAA A podcast featuring interviews with mostly female comedians. Listen using <a class="visible" target=_new href="https://itunes.apple.com/us/podcast/beas-big-laughs/id1329611273">iTunes</a> or <a class="visible" target=_new href="https://www.spreaker.com/show/beas-big-laughs">Spreaker</a>. </p>  
+		<p>A podcast featuring interviews with mostly female comedians. Listen using <a class="visible" target=_new href="https://itunes.apple.com/us/podcast/beas-big-laughs/id1329611273">iTunes</a> or <a class="visible" target=_new href="https://www.spreaker.com/show/beas-big-laughs">Spreaker</a>. </p>  
     
 
 	    <div class="row" style="margin-left: 0;">
@@ -116,6 +116,16 @@
 
     </div> <!-- gallery -->
       
+<script> //circumvent double tap issue on apple touch devices; 
+$(document).ready(function() {
+  $("a").on("click touchend", function(e) {
+    var el = $(this);
+    var link = el.attr("href");
+    window.location = link;
+  });
+});
+</script>
+
     <script src="../photoswipe/initialize_photoswipe.js"></script>
 
   </body>
