@@ -245,6 +245,7 @@ a.pswp__share--download:hover {
 
  */
 .pswp__counter {
+  display: none; /* Hidden per my preference */
   position: absolute;
   left: 0;
   top: 0;
@@ -266,18 +267,23 @@ a.pswp__share--download:hover {
   bottom: 0;
   width: 100%;
   min-height: 44px; }
-  .pswp__caption small {
+
+.pswp__caption small {
     font-size: 11px;
     color: #BBB; }
 
 .pswp__caption__center {
+  font-family: 'Open Sans', sans-serif;
   text-align: left;
+  text-align: center;
   max-width: 420px;
   margin: 0 auto;
+  margin-bottom: 10px;
   font-size: 13px;
   padding: 10px;
   line-height: 20px;
-  color: #CCC; }
+  color: #CCC;
+  color: #DDD; }
 
 .pswp__caption--empty {
   display: none; }
@@ -443,7 +449,8 @@ a.pswp__share--download:hover {
 
 .pswp__top-bar,
 .pswp__caption {
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5); 
+}
 
 /* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
 .pswp__ui--fit .pswp__top-bar,
@@ -479,4 +486,5 @@ a.pswp__share--download:hover {
   display: none !important; }
 
 .pswp--minimal--dark .pswp__top-bar {
-  background: none; }
+  background: none; 
+}
