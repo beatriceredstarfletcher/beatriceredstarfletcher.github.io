@@ -99,6 +99,7 @@ a.visible { color: #0577C2; }
 	#container {
 	margin: auto;
     padding: 0 1.5em 0 1.5em;
+    padding: 1.1em 1.2em 1.1em 1.2em;
 	min-width: 0;
 
 	}
@@ -117,6 +118,7 @@ a.visible { color: #0577C2; }
 	  #container {
 		margin: auto;
 	    padding: 0 1em 0 1em;
+	    padding: 1.1em 1.2em 1.1em 1.2em;
 		min-width: 0;
 
 	}
