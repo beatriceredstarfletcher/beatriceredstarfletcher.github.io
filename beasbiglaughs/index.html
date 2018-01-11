@@ -25,6 +25,19 @@
 
 	<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="../css/photoswipeB.css" media="screen" />
+
+      <!--circumvent double tap issue on apple touch devices -->
+<script> 
+$(document).ready(function() {
+  $("a").on("click touchend", function(e) {
+    var el = $(this);
+    var link = el.attr("href");
+    window.location = link;
+  });
+});
+</script>
+
+	
   </head>
 
  <body> 
@@ -116,15 +129,8 @@
 
     </div> <!-- gallery -->
       
-<script> //circumvent double tap issue on apple touch devices; 
-$(document).ready(function() {
-  $("a").on("click touchend", function(e) {
-    var el = $(this);
-    var link = el.attr("href");
-    window.location = link;
-  });
-});
-</script>
+
+
 
     <script src="../photoswipe/initialize_photoswipe.js"></script>
 
