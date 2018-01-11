@@ -54,6 +54,8 @@ font-size: 1em;
 
 
 /* Trick for fine-tuning link hover underlines with large fonts by Craig Spaeth http://artsy.github.io/blog/2012/04/10/css-trick-adjusting-text-underlines/ */
+
+/*
 a {
   display: inline-block;
   position: relative;
@@ -66,13 +68,31 @@ a:hover:after {
   height: 1em;
   width: 100%;
   border-bottom: 1px solid;
-  margin-top: 2px;
+  margin-top: 4px;
 }
+*/
+
+
 
 /* No hover underline for gallery images */
+
+/*
 a.demo-gallery__img--main:hover:after {
   border: none;
 }
+
+*/
+
+
+/* No hover underline for gallery images */
+
+/* not needed because images in links aren't underlined by default */
+/*
+a.demo-gallery__img--main:hover {
+  text-decoration: none;
+}
+*/
+
 
 
 
@@ -81,8 +101,14 @@ a.demo-gallery__img--main:hover:after {
 a { text-decoration: none;
 	color: #000;
 }
-a:hover{text-decoration: none;
+a:hover{text-decoration: underline;
 	color: #000;}
+
+
+
+
+
+
 
 a.visible { color: #0577C2; }
 
