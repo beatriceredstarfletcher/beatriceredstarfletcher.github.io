@@ -14,6 +14,25 @@
 		<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen" />
 	    <script src="../photoswipe/dist/photoswipe.min.js?v=4.1.1-1.0.4"></script>
 	    <script src="../photoswipe/dist/photoswipe-ui-default.min.js?v=4.1.1-1.0.4"></script>
+
+<style>
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.row {
+  display: flex;
+}
+
+.img1 { flex: 1; }
+.img2 { flex: 1.333; }
+
+</style>
+
+
   </head>
 
  <body> 
@@ -27,13 +46,17 @@
 	      
 	      <div id="demo-test-gallery" class="demo-gallery">
 
-	        <a href="img/lrg/beas_big_laughs.png" itemprop="contentUrl" data-size="1600x1600" data-med="img/med/beas_big_laughs.png" data-med-size="1000x1000"  class="demo-gallery__img--main"><img style="border: 1px solid #ccc;"  src="img/sml/beas_big_laughs240_150.png" itemprop="thumbnail"  />
-	    	</a>
+	      	<div class="img1">
+		        <a href="img/lrg/beas_big_laughs.png" itemprop="contentUrl" data-size="1600x1600" data-med="img/med/beas_big_laughs.png" data-med-size="1000x1000"  class="demo-gallery__img--main"><img style="border: 1px solid #ccc;"  src="img/sml/beas_big_laughs240_150.png" itemprop="thumbnail"  />
+		    	</a>
+	    	</div>
 	
-	        <a href="img/lrg/bea_carrie.jpg" itemprop="contentUrl" data-size="1600x1200" data-med="img/med/bea_carrie.jpg" data-med-size="1000x750"  data-author="" alt="Carrie Brownstein being interviewed at Bea’s house in Portland, Oregon on November 15th 2017" class="demo-gallery__img--main">
-	        <img src="img/sml/bea_carrie240_150.jpg" itemprop="thumbnail"  />
-	        <figure>Bea interviewing Carrie Brownstein at Bea’s house in Portland, Oregon on November 15th 2017</figure>
-	        </a>
+			<div class="img2">
+		        <a href="img/lrg/bea_carrie.jpg" itemprop="contentUrl" data-size="1600x1200" data-med="img/med/bea_carrie.jpg" data-med-size="1000x750"  data-author="" alt="Carrie Brownstein being interviewed at Bea’s house in Portland, Oregon on November 15th 2017" class="demo-gallery__img--main">
+		        <img src="img/sml/bea_carrie240_150.jpg" itemprop="thumbnail"  />
+		        <figure>Bea interviewing Carrie Brownstein at Bea’s house in Portland, Oregon on November 15th 2017</figure>
+		        </a>
+	    	</div>
 
 	      </div> <!-- end demo-test-gallery -->
 	 
