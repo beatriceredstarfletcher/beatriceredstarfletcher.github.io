@@ -81,7 +81,7 @@ figure a {
 /* Below added from site_assets/site.css */
 
 .row {
-  max-width: 800px;
+  /*max-width: 800px;*/
   margin: 24px auto;
   padding: 0 30px;
   position: relative;
