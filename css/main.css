@@ -40,8 +40,8 @@ font-size: 1em;
 font-style: normal;
 font-variant: normal;
 font-weight: 500;
-line-height: 1em;
-line-height: 1vw;
+line-height: 1.5em;
+line-height: 1.5vw;
 margin-left: 0.7em;
 margin-left: 0.7vw;
 }
@@ -76,6 +76,7 @@ figure {
 figure a {
   display: block;
 }
+
 
 
 /* Below added from site_assets/site.css */
