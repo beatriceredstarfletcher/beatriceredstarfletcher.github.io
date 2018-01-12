@@ -52,50 +52,126 @@ font-size: 1em;
 }
 
 
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
 
-/* Trick for fine-tuning link hover underlines with large fonts by Craig Spaeth http://artsy.github.io/blog/2012/04/10/css-trick-adjusting-text-underlines/ */
 
-/*
-a {
-  display: inline-block;
+img {
+  max-width: 100%;
+  height: auto;
+}
+figure {
+  margin: 0;
+  padding: 10px;
+}
+figure a {
+  display: block;
+}
+
+
+/* Below added from site_assets/site.css */
+
+.row {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 0 30px;
   position: relative;
 }
-a:hover:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  display: inline-block;
-  height: 1em;
+
+.row--docs {
+  max-width: 960px;
+  padding-left: 210px;
+}
+.row--heading {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.row--footer {
+  text-align: center;
+  padding: 132px 0;
+}
+.row--wide {
+  max-width: 1000px;
+}
+.row--video {
+  max-width: 1160px;
+}
+
+.row--wide img {
+  float: left;
+  margin: 0 12px 12px 0;
+  width: 200px;
+}
+img.img--with_border {
+  border: 1px solid #DDD;
+  border-radius: 2px;
+}
+.img-desc {
+  margin-left: 212px;
+}
+
+
+
+/* clearfix */
+.row:after{
+  content: " "; 
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.row--large {
+  margin-bottom: 48px;
+}
+
+.demo-gallery {
   width: 100%;
-  border-bottom: 1px solid;
-  margin-top: 4px;
+  height: auto;
+  float: left;
 }
-*/
-
-
-
-/* No hover underline for gallery images */
-
-/*
-a.demo-gallery__img--main:hover:after {
-  border: none;
+.demo-gallery a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  display: block;
+  float: left;
+  margin: 0 12px 12px 0;
+  width: 171px;
+  line-height: 0;
 }
 
-*/
 
 
-/* No hover underline for gallery images */
-
-/* not needed because images in links aren't underlined by default */
-/*
-a.demo-gallery__img--main:hover {
-  text-decoration: none;
+a.demo-gallery__img--main {
+  width: auto;
+  height: auto;
 }
-*/
 
 
+.demo-gallery figure {
+  display: none;
+}
+.demo-gallery__title {
+  line-height: 14px;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 5px;
+  width: 100%;
+  float: left;
+}
 
-
+.thumbnail {
+  height:225px;
+  width: auto;
+}
 
 
 a { text-decoration: none;
@@ -105,18 +181,214 @@ a:hover{text-decoration: underline;
 	color: #000;}
 
 
-
-
-
-
-
 a.visible { color: #0577C2; }
 
 .wrapper { width: 1200px; margin: 4em auto; }
 
+@media screen and (max-width: 1000px) {
+
+  .row--wide {
+    max-width: 800px;
+  }
+  .row--wide img {
+    float: none;
+  }
+  .img-desc {
+    margin-left: 0;
+  }
+  .section {
+    margin-top: 132px;
+  }
+
+  .row--docs {
+    max-width: 800px;
+    padding-left: 30px;
+
+  }
+  
+  .section--head {
+    margin-top:0;
+    padding: 30px 0;
+  }
+
+  .docs {
+    margin-top: 48px;
+  }
+
+  .docs-menu {
+    position: relative;
+    margin: 15px 0;
+    left:0;
+    top:0;
+  }
+  .docs-menu  ul {
+    position: relative;
+  }
+  .docs-menu__ad {
+    display: none;
+  }
+
+  .row--nav {
+    font-size: 24px;
+    line-height: 1.1; 
+  }
+    .thumbnail {
+    height:30vw;
+  }
+
+
+	.companion_image {
+		width: 2.5em;
+	}
+	
+	#container {
+	margin: auto;
+    padding: 0 1.5em 0 1.5em;
+    padding: 1.1em 1.2em 1.1em 1.2em;
+	min-width: 0;
+
+	}
+}
 
 
 
+@media screen and (max-width: 750px) {
+
+  .block__ui-separated .col-50 {
+    position: relative;
+    top: 0;
+  }
+  .block__ui-separated img {
+    max-width: 100%;
+    width: 100%;
+    float: left;
+  }
+    .thumbnail {
+    height:30vw;
+  }
+
+   .row--nav {
+    font-size: 18px;
+    line-height: 26px; 
+  }
+
+  .demo-gallery {
+    max-width: 500px;
+  }
+  .demo-gallery a {
+    width: 120px;
+    margin: 0 4px 4px 0;
+  }
+  a.demo-gallery__img--main {
+    width: 164px;
+  }
+  .section--head p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .thumbnail {
+    height:30vw;
+  }
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+  
+
+  .col-50:nth-child(1) {
+    margin-right: 0;
+  }
+  .row--wide img {
+    margin-bottom: 6px;
+  }
+  .col-50 {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .row {
+    padding: 0 18px;
+  }
+  .docs .highlight,
+  .codepen-embed {
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: -18px;
+  }
+  .section {
+    margin-top: 88px;
+  }
+  .docs {
+    margin-top: 32px;
+  }
+  .section--head {
+    margin-top:0;
+    padding: 24px 0;
+  }
+  .row--nav {
+    font-size: 18px;
+    line-height: 26px; 
+  }
+    .thumbnail {
+    height:30vw;
+  }
+
+
+   #container {
+		margin: auto;
+	    padding: 0 1em 0 1em;
+	    padding: 1.1em 1.2em 1.1em 1.2em;
+		min-width: 0;
+
+	}
+	  
+	#box {
+		margin-top: 1em;
+		margin-left: 1em;
+		width: 100%;
+	}
+
+	h1 {
+
+	font-size: 1.1em;
+	line-height: 2em;	
+	line-height: 1.3em;
+	}
+
+	h2 {
+
+	font-size: 0.9em;
+	line-height: 1em;
+	}
+
+	p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	}
+
+
+	/* photoswipe */
+	.demo-gallery a {
+	    width: 95px;
+	    margin: 0 1px 1px 0;
+	}
+	a.demo-gallery__img--main {
+	    width: 127px;
+	}
+	.thumbnail {
+	    height:30vw;
+	}	
+
+
+}
+
+
+
+
+/* 78em = 1248px */
+
+/*
 @media screen and (max-width: 78em) {
 	.companion_image {
 		width: 2.5em;
@@ -131,14 +403,41 @@ a.visible { color: #0577C2; }
 	}
 	
 }
+*/
 
-
+/* 47em = 752px */
+/*
 @media screen and (max-width: 47em) {
 	
+  .row--nav {
+    font-size: 18px;
+    line-height: 26px; 
+  }
+
+  .demo-gallery {
+    max-width: 500px;
+  }
+  .demo-gallery a {
+    width: 120px;
+    margin: 0 4px 4px 0;
+  }
+  a.demo-gallery__img--main {
+    width: 164px;
+  }
+  .section--head p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .thumbnail {
+    height:30vw;
+  }
+
+
 }
+*/
 
-
-
+/* 32em = 512px */
+/*
 @media screen and (max-width: 32em) {
   
 	  #container {
@@ -173,10 +472,101 @@ a.visible { color: #0577C2; }
 	font-size: 0.8em;
 	}
 
-	/* Grid Gallery one column only on small screens */
-	.grid li { width: 100%; } 
-	  
-} /* End media queries */
+
+	
+	.demo-gallery a {
+	    width: 95px;
+	    margin: 0 1px 1px 0;
+	}
+	a.demo-gallery__img--main {
+	    width: 127px;
+	}
+	.thumbnail {
+	    height:30vw;
+	}	
+
+	*/
+
+
+@media screen and (max-width: 350px) {
+
+	/* photoswipe */ 
+	.demo-gallery a {
+    width: 81px;
+	margin: 0 1px 1px 0;
+  	}
+  	a.demo-gallery__img--main {
+    width: 109px;
+  	}
+    .thumbnail {
+    height:30vw;
+  	}
+} 
+
+
+
+
+
+
+
+
+/* copied from site assets */
+
+@media screen and (max-width: 700px) {
+
+  .row--nav {
+    font-size: 18px;
+    line-height: 26px; 
+  }
+
+  .demo-gallery {
+    max-width: 500px;
+  }
+  .demo-gallery a {
+    width: 120px;
+    margin: 0 4px 4px 0;
+  }
+  a.demo-gallery__img--main {
+    width: 164px;
+  }
+  .section--head p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+/*@media screen and (max-width: 490px) {
+  .demo-gallery a {
+    width: 100px;
+    margin: 0 4px 4px 0;
+  }
+  a.demo-gallery__img--main {
+    width: 137px;
+  }
+}
+*/
+
+
+@media screen and (max-width: 450px) {
+  .demo-gallery a {
+    width: 95px;
+    margin: 0 1px 1px 0;
+  }
+  a.demo-gallery__img--main {
+    width: 127px;
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  .demo-gallery a {
+    width: 81px;
+margin: 0 1px 1px 0;
+  }
+  a.demo-gallery__img--main {
+    width: 109px;
+  }
+}
 
 
 

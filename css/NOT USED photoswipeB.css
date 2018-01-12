@@ -1,11 +1,4 @@
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+
 .cf:before,
 .cf:after {
   content: " ";
@@ -17,11 +10,8 @@ html {
 .cf {
   *zoom: 1;
 }
-body {
-  margin: 0;
-  background-color: #f5f7fa;
-  font-family: "Roboto", sans-serif;
-}
+
+
 img {
   max-width: 100%;
   height: auto;
@@ -33,69 +23,6 @@ figure {
 figure a {
   display: block;
 }
-header {
-  background-color: #196e76;
-  text-align: center;
-}
-header h1,
-header a {
-  padding: 15px;
-  color: #fff;
-  text-transform: uppercase;
-}
-/*
-header h1 {
-  margin: 0;
-  font-size: 18px;
-}
-*/
-header a {
-  font-weight: 300;
-  display: block;
-  text-decoration: none;
-  background-color: #10474c;
-  font-size: 14px;
-}
-.demo-content {
-  max-width: 840px;
-  width: 100%;
-  margin-top: 60px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.demo-content img {
-  border: 5px solid #fff;
-}
-.picture {
-  padding: 36px 0;
-  border-bottom: 1px solid #dae1ec;
-}
-.picture:first-child {
-  padding-top: 0;
-}
-.pace {
-  pointer-events: none;
-  user-select: none;
-}
-.pace-inactive {
-  display: none;
-}
-.pace .pace-progress {
-  background: #f87f3f;
-  position: fixed;
-  z-index: 2000;
-  top: 0;
-  right: 100%;
-  width: 100%;
-  height: 2px;
-}
-.pace-running .demo-content {
-  opacity: 0.5;
-}
-.pace-running figure {
-  pointer-events: none;
-}
-
 
 
 /* Below added from site_assets/site.css */
@@ -139,20 +66,6 @@ img.img--with_border {
   margin-left: 212px;
 }
 
-
-
-
-/*.main-wrapper {
-  background: none;
-  width: 100%;
-  padding-top: 0;
-  
-}
-.content-wrap {
-  
-
-
-}*/
 
 
 /* clearfix */
@@ -239,13 +152,13 @@ a.demo-gallery__img--main {
 }
 
 
-
 .thumbnail {
   height:225px;
   width: auto;
 }
 
 
+/*
 
 @media screen and (max-width: 1000px) {
 
@@ -362,6 +275,9 @@ a.demo-gallery__img--main {
 
 }
 
+*/
+
+/*
 @media screen and (max-width: 700px) {
 
   .row--nav {
@@ -387,6 +303,7 @@ a.demo-gallery__img--main {
     height:30vw;
   }
 }
+*/
 
 /*@media screen and (max-width: 490px) {
   .demo-gallery a {
@@ -399,7 +316,7 @@ a.demo-gallery__img--main {
 }
 */
 
-
+/*
 @media screen and (max-width: 450px) {
   .demo-gallery a {
     width: 95px;
@@ -412,8 +329,9 @@ a.demo-gallery__img--main {
     height:30vw;
   }
 }
+*/
 
-
+/*
 @media screen and (max-width: 350px) {
   .demo-gallery a {
     width: 81px;
@@ -426,13 +344,9 @@ margin: 0 1px 1px 0;
     height:30vw;
   }
 }
+*/
 
 /* Above added from site_assets/site.css */
-
-
-
-
-
 
 
 @media screen and (min-width: 630px) {
@@ -469,4 +383,3 @@ margin: 0 1px 1px 0;
     width: 50%;
   }
 }
-/*# sourceMappingURL=style.css.map */
