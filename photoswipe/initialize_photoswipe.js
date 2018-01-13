@@ -302,6 +302,6 @@
 			}
 		};
 
-		initPhotoSwipeFromDOM('.demo-gallery');
+		initPhotoSwipeFromDOM('.photoswipe-gallery');
 
 	})();
