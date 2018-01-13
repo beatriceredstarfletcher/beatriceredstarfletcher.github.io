@@ -112,8 +112,153 @@ a:hover{text-decoration: underline;
 
 a.visible { color: #0577C2; }
 
-@media screen and (max-width: 1024px) {
+
+
+/* for iphone only */
+@media screen and (max-width: 599px) { 
+	.photoswipe-gallery {
+	max-width: 500px;
+	}
+	.photoswipe-gallery a {
+	width: 120px;
+	margin: 0 4px 4px 0;
+	}
+	a.photoswipe-gallery__img--main {
+	width: 164px;
+	}
+
+	h1 {
+	font-size: 0.9em;
+	line-height: 2em;	
+	line-height: 1.3em;
+	}
+
+	h2 {
+	font-size: 0.8em;
+	line-height: 1em;
+	}
+
+	p {
+	font-size: 0.6em;
+	}
+}  
+
+
+/* for-tablet-portrait-up */
+@media screen and (min-width: 600px) {  
+
+	.photoswipe-gallery {
+	max-width: 500px;
+	}
+	.photoswipe-gallery a {
+	width: 120px;
+	margin: 0 4px 4px 0;
+	}
+	a.photoswipe-gallery__img--main {
+	width: 164px;
+	}
+
+	h1 {
+	font-size: 1em;
+	line-height: 2em;	
+	line-height: 1.3em;
+	}
+
+	h2 {
+	font-size: 0.9em;
+	line-height: 1em;
+	}
+
+	p {
+	font-size: 0.8em;
+	}
+
+
+	.row {
+	padding: 0 18px;
+	}
+
+	#container {
+		margin: auto;
+	    padding: 0 1em 0 1em;
+	    padding: 1.1em 1.2em 1.1em 1.2em;
+		min-width: 0;
+	}
+	  
 	
+
+
+	/* photoswipe */
+/*
+	.photoswipe-gallery a {
+	    width: 95px;
+	    margin: 0 1px 1px 0;
+	}
+	a.photoswipe-gallery__img--main {
+	    width: 127px;
+	}
+
+*/
+}
+
+
+
+/*for-tablet-landscape-up */
+@media screen and (min-width: 900px) {  
+
+	.photoswipe-gallery {
+	max-width: 500px;
+	}
+	.photoswipe-gallery a {
+	width: 120px;
+	margin: 0 4px 4px 0;
+	}
+	a.photoswipe-gallery__img--main {
+	width: 164px;
+	}
+
+	h1 {
+	font-size: 1.1em;
+	line-height: 2em;	
+	line-height: 1.3em;
+	}
+
+	h2 {
+	font-size: 1em;
+	line-height: 1em;
+	}
+
+	p {
+	font-size: 0.9em;
+	}
+
+
+}
+
+/* for-desktop-up */
+ @media screen and (min-width: 1200px) {
+	
+	.photoswipe-gallery {
+	  width: 100%;
+	  height: auto;
+	  float: left;
+	}
+
+	.photoswipe-gallery a {
+	  -webkit-tap-highlight-color: rgba(0,0,0,0);
+	  -webkit-touch-callout: none;
+	  display: block;
+	  float: left;
+	  margin: 0 12px 12px 0;
+	  width: 171px;
+	  line-height: 0;
+	}
+
+	a.photoswipe-gallery__img--main {
+	  width: auto;
+	  height: auto;
+	}
+
 	#container {
 	margin: auto;
     padding: 0 1.5em 0 1.5em;
@@ -137,101 +282,14 @@ a.visible { color: #0577C2; }
 	}
 }
 
-
-/* copied from site assets */
-
-@media screen and (max-width: 768px) {
-
-  .photoswipe-gallery {
-    max-width: 500px;
-  }
-  .photoswipe-gallery a {
-    width: 120px;
-    margin: 0 4px 4px 0;
-  }
-  a.photoswipe-gallery__img--main {
-    width: 164px;
-    width: 245px;
-  }
-
-  	p {
-	font-size: 1.1em;
-	}
-
+/* for-big-desktop-up */ 
+ @media screen and (min-width: 1800px) {  
 
 }
 
 
-@media screen and (max-width: 640px) {
-
-  .photoswipe-gallery {
-    max-width: 500px;
-  }
-  .photoswipe-gallery a {
-    width: 120px;
-    margin: 0 4px 4px 0;
-  }
-  a.photoswipe-gallery__img--main {
-    width: 164px;
-  }
-
-  	p {
-	font-size: 0.6em;
-	}
-
-}
 
 
-@media screen and (max-width: 450px) {
-  
-  .row {
-    padding: 0 18px;
-  }
-
-   #container {
-		margin: auto;
-	    padding: 0 1em 0 1em;
-	    padding: 1.1em 1.2em 1.1em 1.2em;
-		min-width: 0;
-
-	}
-	  
-	h1 {
-	font-size: 1.1em;
-	line-height: 2em;	
-	line-height: 1.3em;
-	}
-
-	h2 {
-	font-size: 0.9em;
-	line-height: 1em;
-	}
-
-
-	/* photoswipe */
-	.photoswipe-gallery a {
-	    width: 95px;
-	    margin: 0 1px 1px 0;
-	}
-	a.photoswipe-gallery__img--main {
-	    width: 127px;
-	}
-
-}
-
-
-@media screen and (max-width: 350px) {
-
-	/* photoswipe */ 
-	.photoswipe-gallery a {
-    width: 81px;
-	margin: 0 1px 1px 0;
-  	}
-  	a.photoswipe-gallery__img--main {
-    width: 109px;
-  	}
-
-}
 
 
 
