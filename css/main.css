@@ -125,7 +125,7 @@ a.visible { color: #0577C2; }
 
 /* copied from site assets */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 
   .photoswipe-gallery {
     max-width: 500px;
@@ -137,6 +137,11 @@ a.visible { color: #0577C2; }
   a.photoswipe-gallery__img--main {
     width: 164px;
   }
+
+  	p {
+	font-size: 0.9em;
+	}
+
 
 }
 
@@ -175,27 +180,15 @@ a.visible { color: #0577C2; }
 
 	}
 	  
-	#box {
-		margin-top: 1em;
-		margin-left: 1em;
-		width: 100%;
-	}
-
 	h1 {
-
 	font-size: 1.1em;
 	line-height: 2em;	
 	line-height: 1.3em;
 	}
 
 	h2 {
-
 	font-size: 0.9em;
 	line-height: 1em;
-	}
-
-	p {
-	font-size: 0.8em;
 	}
 
 
