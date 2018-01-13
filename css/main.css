@@ -136,8 +136,8 @@ a.visible { color: #0577C2; }
 
 	h2 {
 	font-size: 0.8em;
-	font-size: 1.2;
-	line-height: 1em;
+	font-size: 1.4;
+	line-height: 1.4em;
 	}
 
 	p {
@@ -159,12 +159,14 @@ a.visible { color: #0577C2; }
 	}
 	a.photoswipe-gallery__img--main {
 	width: 164px;
+	width: 250px;
 	}
 
 	h1 {
 	font-size: 1em;
+	font-size: 1.5em;
 	line-height: 2em;	
-	line-height: 1.3em;
+	line-height: 1.5em;
 	}
 
 	h2 {
@@ -174,6 +176,7 @@ a.visible { color: #0577C2; }
 
 	p {
 	font-size: 0.8em;
+	font-size: 1.2em;
 	}
 
 
