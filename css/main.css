@@ -115,12 +115,14 @@ a.visible { color: #0577C2; }
 
 
 /* for iphone only */
+
 @media screen and (max-width: 599px) { 
 	.photoswipe-gallery {
 	max-width: 500px;
 	}
 	.photoswipe-gallery a {
 	width: 120px;
+	width: 164px;
 	margin: 0 4px 4px 0;
 	}
 	a.photoswipe-gallery__img--main {
