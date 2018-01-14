@@ -27,10 +27,6 @@ font-size: 1.3em;
 font-style: normal;
 font-variant: normal;
 font-weight: 500;
-/*
-line-height: 26.4px;
-line-height: 2vw;
-*/
 line-height: 1.3em;
 }
 
@@ -119,7 +115,7 @@ a:hover{text-decoration: underline;
 a.visible { color: #0577C2; }
 
 
-/* for iphone only */
+/* for iphone portrait only */
 
 @media screen and (max-width: 599px) { 
 
@@ -141,6 +137,7 @@ a.visible { color: #0577C2; }
 	h2 {
 	font-size: 1.1em;
 	line-height: 1.2em;
+	margin-left: 1em;
 	}
 
 	p {
@@ -170,8 +167,8 @@ a.visible { color: #0577C2; }
 	font-size: 1.1em;
 	line-height: 1em;
 
-		font-size: 1.3em;
-	line-height: 1.3em;
+	font-size: 1.1em;
+	line-height: 1.1em;
 	}
 
 	p {
