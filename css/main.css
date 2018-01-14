@@ -140,7 +140,7 @@ a.visible { color: #0577C2; }
 
 	h2 {
 	font-size: 0.8em;
-	font-size: 1.8;
+	font-size: 1.8em;
 	line-height: 1.8em;
 	}
 
@@ -151,7 +151,7 @@ a.visible { color: #0577C2; }
 
 
 /* for-tablet-portrait-up */
-@media screen and (min-width: 650px) {  
+@media screen and (min-width: 600px) {  
 
 	.photoswipe-gallery {
 	max-width: 600px;
