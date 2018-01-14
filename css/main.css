@@ -37,8 +37,6 @@ font-style: normal;
 font-variant: normal;
 font-weight: 500;
 line-height: 1.1em;
-margin-left: 0.7em;
-margin-left: 0.7vw;
 }
 
 p {
@@ -56,6 +54,11 @@ figure {
 }
 figure a {
   display: block;
+}
+
+#page_content {
+	margin-top: 1.1em;
+	margin-left: 0.8em;
 }
 
 .gallery_row {
@@ -137,7 +140,6 @@ a.visible { color: #0577C2; }
 	h2 {
 	font-size: 1.1em;
 	line-height: 1.2em;
-	margin-left: 0.8em;
 	}
 
 	p {
@@ -166,7 +168,6 @@ a.visible { color: #0577C2; }
 	h2 {
 	font-size: 1.2em;
 	line-height: 1.2em;
-	margin-left: 0.8em;
 	}
 
 	p {
