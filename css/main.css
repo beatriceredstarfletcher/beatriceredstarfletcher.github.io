@@ -64,7 +64,13 @@ figure a {
   /*max-width: 800px;*/
   margin: 24px auto;
   padding: 0 30px;
-  position: relative;
+  position: relative; 
+
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
 }
 
 /* clearfix */
@@ -154,7 +160,6 @@ a.visible { color: #0577C2; }
 
 	.photoswipe-gallery {
 	max-width: 500px;
-	max-width: 640px;
 	}
 	.photoswipe-gallery a {
 	width: 120px;
@@ -173,7 +178,7 @@ a.visible { color: #0577C2; }
 	}
 
 	h2 {
-	font-size: 0.9em;
+	font-size: 1.1em;
 	line-height: 1em;
 	}
 
