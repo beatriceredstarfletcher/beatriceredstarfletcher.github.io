@@ -151,7 +151,7 @@ a.visible { color: #0577C2; }
 
 
 /* for-tablet-portrait-up */
-@media screen and (min-width: 600px) {  
+@media screen and (min-width: 650px) {  
 
 	.photoswipe-gallery {
 	max-width: 600px;
