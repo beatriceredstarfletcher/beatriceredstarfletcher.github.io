@@ -142,6 +142,8 @@ a.visible { color: #0577C2; }
 
 	p {
 	font-size: 1em;
+
+		font-size: 0.8em;
 	}
 }  
 
@@ -171,8 +173,6 @@ a.visible { color: #0577C2; }
 
 	p {
 	font-size: 1.2em;
-
-	font-size: 0.8em;
 	}
 
 	.gallery_row {
