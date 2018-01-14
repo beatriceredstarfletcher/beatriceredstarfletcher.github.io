@@ -160,13 +160,11 @@ a.visible { color: #0577C2; }
 
 	.gallery_thumbnail {
 	width: auto;
-	height: 150px;
+	height: 200px;
 	}
 
 	h1 {
-	font-size: 1em;
 	font-size: 1.6em;
-	line-height: 2em;	
 	line-height: 1.6em;
 	}
 
@@ -176,8 +174,7 @@ a.visible { color: #0577C2; }
 	}
 
 	p {
-	font-size: 0.8em;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	}
 
 	.gallery_row {
