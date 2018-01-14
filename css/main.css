@@ -62,9 +62,14 @@ figure a {
 
 .row {
   /*max-width: 800px;*/
-  margin: 24px auto;
-  padding: 0 30px;
+  margin: 10px auto;
+  padding: 0 20px;
   position: relative; 
+}
+
+.gallery_thumbnail {
+ width: auto;
+ height: 200px;
 }
 
 /* clearfix */
