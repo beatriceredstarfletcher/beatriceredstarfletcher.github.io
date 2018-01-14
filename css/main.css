@@ -154,6 +154,7 @@ a.visible { color: #0577C2; }
 
 	.photoswipe-gallery {
 	max-width: 500px;
+	max-width: 640px;
 	}
 	.photoswipe-gallery a {
 	width: 120px;
