@@ -130,8 +130,8 @@ a.visible { color: #0577C2; }
 
 
 	h1 {
-	font-size: 1.4em;
-	line-height: 1.3em;
+	font-size: 1.3em;
+	line-height: 1.2em;
 	}
 
 	h2 {
@@ -142,8 +142,6 @@ a.visible { color: #0577C2; }
 
 	p {
 	font-size: 1em;
-
-		font-size: 0.8em;
 	}
 }  
 
