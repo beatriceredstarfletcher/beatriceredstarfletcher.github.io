@@ -122,6 +122,11 @@ a:hover{text-decoration: underline;
 
 a.visible { color: #0577C2; }
 
+iframe {
+	width: 560px; 
+	height: 315px;
+}
+
 
 /* for iphone portrait only */
 
@@ -150,6 +155,12 @@ a.visible { color: #0577C2; }
 	p {
 	font-size: 1em;
 	}
+
+	iframe {
+	width: 240px; 
+	height: 135px;
+	}
+
 }  
 
 
@@ -177,6 +188,12 @@ a.visible { color: #0577C2; }
 
 	p {
 	font-size: 1.2em;
+	}
+
+
+	iframe {
+	width: 320px; 
+	height: 180px;
 	}
 
 	.gallery_row {
