@@ -44,6 +44,11 @@ font-family: 'Open Sans', sans-serif;
 font-size: 1em;
 }
 
+.text {
+font-family: 'Courier', sans-serif;
+font-size: 1em;
+}
+
 img {
   max-width: 100%;
   height: auto;
